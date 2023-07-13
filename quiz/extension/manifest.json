@@ -1,0 +1,21 @@
+{
+    "name": "PubMed Quizzes",
+    "version": "1.0.1",
+    "description": "A quiz to check for understanding after reading a PubMed paper",
+    "manifest_version": 3,
+    "author": "Nooha Kawsar",
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action":{
+        "default_title": "PubMed Quizzes"
+    },
+    "content_scripts": [
+            {
+              "matches": ["https://www.ncbi.nlm.nih.gov/pmc/articles/*"],
+              "css": ["sheet.css"],
+              "js": ["extension.js"]
+            }
+        ]
+}
+
