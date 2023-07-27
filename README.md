@@ -1,3 +1,3 @@
-# auto-graphical-abstracts
-Generate graphical abstracts from papers
-https://maayanlab.github.io/auto-graphical-abstracts/
+# quizzizi
+Test your knowledge about bioinformatics tools
+https://maayanlab.github.io/quizzizi/
