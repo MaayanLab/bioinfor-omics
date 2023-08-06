@@ -50,7 +50,8 @@ let questions = [
         "Searching Enrichr by a single gene or key search term",
         "Using Enrichr in Geneshot",
         "Generating PPIs",
-        "Using Enrichr in ARCHS4"],
+        "Using Enrichr in ARCHS4",
+        "Being able to use the Enrichr API"],
     correct_answer: " Generating PPIs"},
     {question: "What is the maximum amount of relevant genes Enrichr can include?",
     answers: [
@@ -76,7 +77,7 @@ let questions = [
         "Only b and c",
         "a, b, and c"],
     correct_answer: "a, b, and c" },
-    {question:"Why are lncRNAs How many gene set libraries does Enrichr contain?",
+    {question:"How many gene set libraries does Enrichr contain?",
      answers: [
         "120", 
         "146",
